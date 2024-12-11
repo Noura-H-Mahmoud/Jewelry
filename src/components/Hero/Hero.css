@@ -1,0 +1,53 @@
+.Hero {
+    font-family: var(--second-font);
+    height: 100vh;
+    width: 100%;
+    padding: 112px 46px var(--main-padding) 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-image: url(../../assets/images/ring2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Hero_Part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.Hero p {
+    font-weight: var(--fourth-font-weight);
+    color: var(--main-color);
+}
+
+.Hero h1 {
+    font-weight: var(--fourth-font-weight);
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size: var(--xlarge-font-size);
+}
+
+.Hero button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 40px;
+    gap: 10px;
+    width: 38.67%;
+    height: 34px;
+    border: 1px solid var(--main-color);
+    border-radius: 50px;
+    font-weight: var(--fourth-font-weight);
+    font-size: var(--xxxsmall-font-size);
+    line-height: 18px;
+    color: var(--main-color);
+}
+.Hero button:hover {
+    background-color: var(--main-color);
+    color: #EFEFEF;
+}

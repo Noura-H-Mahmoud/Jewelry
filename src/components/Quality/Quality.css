@@ -1,0 +1,39 @@
+.Quality {
+    width: 100%;
+    padding: 0 var(--main-padding);
+    display: flex;
+    gap: 20px;
+    line-height: 18px;
+    color: var(--main-color);
+}
+
+.Quality .side1,
+.Quality .side2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.Quality .side1{
+    margin-top: 18px;
+}
+.Quality .side2 img {
+    width: 100%;
+}
+
+.Quality .side2 {
+    gap: 20px;
+}
+
+.Quality .para1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Quality .para1 p {
+    font-weight: var(--third-font-weight);
+}
+/* .Quality .img1 {
+    height:100%;
+} */
