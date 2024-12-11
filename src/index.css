@@ -1,5 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root {
-  --main-bgcolor: #FF8500;
-  --second-bgcolor: #282828;
-  --price-color: #71AA27;
+  --main-font: 'Playfair Display', sans-serif;
+  --second-font: 'Courier Prime', monospace;
+  --main-color: #726C52;
+  --second-color: #FFFDFC;
+  --third-color: #F1ECE2;
+  --forth-color: #B1AC9A;
+  --main-padding: 40px;
+  --main-border-radius: 20px;
+  --second-border-radius: 16px;
+  --third-border-radius: 12px;
+  --main-font-weight: 400;
+  --second-font-weight: 500;
+  --third-font-weight: 600;
+  --fourth-font-weight: 700;
+  --xxxlarge-font-size: 80px;
+  --xxlarge-font-size: 45px;
+  --xlarge-font-size: 44px;
+  --large-font-size: 40px;
+  --medium-font-size: 32px;
+  --second-medium-font-size: 24px;
+  --small-font-size: 20px;
+  --xsmall-font-size: 16px;
+  --xxsmall-font-size: 14px;
+  --xxxsmall-font-size: 12px;
+  --xxxlarge-line-hieght: 101.04px;
+  --xxlarge-line-hieght: 56.84px;
+  --xlarge-line-hieght: 54px;
+  --large-line-hieght: 50.52px;
+  --xxxmedium-line-hieght: 39.01px;
+  --xxmedium-line-hieght: 30.31px;
+  --xmedium-line-hieght: 24.38px;
+  --medium-line-hieght: 20.21px;
+  --xxxsmall-line-hieght: 19.5px;
+  --xxsmall-line-hieght: 17.07px;
+  --xsmall-line-hieght: 15.16px;
+  --small-line-hieght: 14.63px;
+  --xlarge-width-icon: 24px;
+  --large-width-icon: 20px;
+  --meduim-width-icon: 18px;
+  --small-width-icon: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--second-font);
+}
+
+#root {
+  max-width: 1440px;
+  margin: auto;
+}
+
+p,
+h1,
+h2,
+h6 {
+  margin: 0;
 }
