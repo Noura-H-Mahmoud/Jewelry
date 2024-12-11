@@ -14,9 +14,11 @@
     flex-direction: column;
     gap: 8px;
 }
-.Quality .side1{
+
+.Quality .side1 {
     margin-top: 18px;
 }
+
 .Quality .side2 img {
     width: 100%;
 }
@@ -34,6 +36,18 @@
 .Quality .para1 p {
     font-weight: var(--third-font-weight);
 }
-/* .Quality .img1 {
-    height:100%;
-} */
+
+@media screen and (max-width:768px) {
+    .Quality {
+        flex-direction: column;
+    }
+
+    .Quality .side1 {
+        flex-direction: column-reverse;
+    }
+
+    .Quality .side1,
+    .Quality .side2 {
+        width: 100%;
+    }
+}

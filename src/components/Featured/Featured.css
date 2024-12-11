@@ -13,7 +13,8 @@
     padding: 34px var(--main-padding) 46px var(--main-padding);
 }
 
-.Featured  .left,.Featured  .right {
+.Featured .left,
+.Featured .right {
     width: 42.62%;
     display: flex;
     flex-direction: column;
@@ -24,7 +25,7 @@
     width: 270px;
     font-family: var(--main-font);
     font-weight: var(--third-font-weight);
-    font-size: var(--main-padding);
+    font-size: var(--large-font-size);
     line-height: 40px;
 }
 
@@ -50,4 +51,28 @@
 .Featured button:hover {
     background-color: var(--main-color);
     color: #EFEFEF;
+}
+
+@media screen and (max-width:768px) {
+    .Featured .content {
+        height: max-content;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .Featured .left h2 {
+        margin-bottom: 30px;
+        font-size: var(--second-medium-font-size);
+    }
+
+    .Featured .left,
+    .Featured .right,
+    .Featured .left h2,
+    .Featured .content .right {
+        width: 100%;
+    }
+
+    .Featured button {
+        width: 150px;
+    }
 }

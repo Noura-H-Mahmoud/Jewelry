@@ -17,14 +17,26 @@
     background: #FFFDFC;
     border: 1px solid #F1ECE2;
     margin-bottom: 4px;
+    object-fit: contain;
 }
 
-.Items .Item h6,.Items .Item p  {
+.Items .Item h6,
+.Items .Item p {
     font-weight: var(--main-font-weight);
     line-height: 18px;
     color: var(--main-color);
     font-size: var(--xxsmall-font-size);
 }
+
 .Items .Item p {
     font-size: var(--xxxsmall-font-size);
+}
+
+@media screen and (max-width:768px) {
+    .Items {
+        flex-direction: column;
+    }
+    .Items .Item img{
+        height: 200px;
+    }
 }

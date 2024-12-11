@@ -47,7 +47,23 @@
     line-height: 18px;
     color: var(--main-color);
 }
+
 .Hero button:hover {
     background-color: var(--main-color);
     color: #EFEFEF;
+}
+
+@media screen and (max-width:768px) {
+    .Hero {
+        height: 700px;
+    }
+
+    .Hero button {
+        width: 220px;
+        padding: 8px 20px;
+    }
+
+    .Hero h1 {
+        font-size: var(--large-font-size);
+    }
 }
